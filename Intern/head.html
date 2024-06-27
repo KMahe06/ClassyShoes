@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head.html -->
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .nav-text {
+            text-align: center;
+            padding: 10px;
+            background-image: url('https://media.gq.com/photos/63e2b84fc3e6ea31f7c7dd30/16:9/w_2560%2Cc_limit/best-shoe-brands-nike-asics-celine.jpg'); /* Replace 'your-image.jpg' with your actual image path */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .nav-text header p {
+            color: #f0f0f0;
+            margin: 0;
+            padding: 20px 0;
+            font-size: 35px;
+        }
+       
+        .nav-links  {
+            display: flex;
+            justify-content: right;
+            /* Add a semi-transparent background for readability */
+            padding: 10px;
+        }
+
+        .nav-links a {
+            color: rgb(255, 254, 254);
+            font-size: 30px;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .nav-links a:hover {
+            background-color: #87cacf;
+            color: rgb(72, 97, 99);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-text">
+        <header>
+            <p> <a href="about.php">Classy Shoes </a> </p>
+        </header>
+        <nav class="nav-links">
+            <a href="index.php">Home</a>
+            <a href="contact.php">Contact</a>
+            <a href="register.php">Register</a>
+            <a href="about.php">About</a>
+        </nav>
+    </div>
+</body>
+</html>
